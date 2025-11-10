@@ -1,0 +1,12 @@
+{
+  "name": "test-automation",
+  "version": "1.0.0",
+  "description": "Projet de tests automatisés avec Cypress, Playwright et Karate",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}
