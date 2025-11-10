@@ -4,9 +4,13 @@
   "description": "Projet de tests automatisés avec Cypress, Playwright et Karate",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "playwright:run": "npx playwright test",
+    "playwright:report": "npx playwright show-report",
+    "karate:test": "mvn test -f karate/pom.xml"
   },
   "devDependencies": {
-    "cypress": "^13.6.0"
+    "cypress": "^13.6.0",
+    "@playwright/test": "^1.43.0"
   }
 }
